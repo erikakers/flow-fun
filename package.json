@@ -1,7 +1,12 @@
 {
   "name": "flow-fun",
   "version": "1.0.0",
-  "description": "",
+  "description": "It's Flow, It's Fun. It's Flun.",
+  "eslintConfig": {
+    "extends": [
+      "airbnb"
+    ]
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0"
@@ -16,5 +21,12 @@
   "bugs": {
     "url": "https://github.com/erikakers/flow-fun/issues"
   },
-  "homepage": "https://github.com/erikakers/flow-fun#readme"
+  "homepage": "https://github.com/erikakers/flow-fun#readme",
+  "devDependencies": {
+    "eslint": "3.2.2",
+    "eslint-config-airbnb": "10.0.0",
+    "eslint-plugin-import": "1.12.0",
+    "eslint-plugin-jsx-a11y": "2.0.1",
+    "eslint-plugin-react": "6.0.0"
+  }
 }
